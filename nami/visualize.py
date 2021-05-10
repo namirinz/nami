@@ -1,6 +1,13 @@
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+
+def bug():
+    b += 1
+    c+1
+    #ase asdf
+    return a+1asdfasdfasdfadsfasdfadsfads
+
 def plot_confusion_matrix(cf,
                           group_names=["True Neg","False Pos","False Neg","True Pos"],
                           categories=["Zero", "One"],
