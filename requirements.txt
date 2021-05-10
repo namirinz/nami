@@ -1,0 +1,11 @@
+scikit-learn
+
+numpy
+opencv-python
+
+pandas
+seaborn
+matplotlib
+
+bs4
+tqdm
