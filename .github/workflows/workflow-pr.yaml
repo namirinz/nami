@@ -1,5 +1,6 @@
 name: Python Pull Request WorkFlow
-on: 
+
+on:
   pull_request:
     branches:
       main
@@ -14,7 +15,7 @@ jobs:
         with:
           python-version: 3.8
       - name: wemake-python-styleguide
-        uses: wemake-services/wemake-python-styleguide
+        uses: wemake-services/wemake-python-styleguide@0.13.4
         continue-on-error: true
         with:
           reporter: 'github-pr-review'
